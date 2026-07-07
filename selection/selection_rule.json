@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "source": "replays.bson (HF mirror cschell/boxrr-23 metadata)",
+  "app": "Beat Saber",
+  "exclude_corrupt_users": true,
+  "recording_eligibility": {
+    "timestamp_required": true,
+    "min_duration_s": 60.0,
+    "implied_hz_range": [
+      30.0,
+      200.0
+    ]
+  },
+  "user_eligibility": {
+    "min_eligible_recordings": 12,
+    "min_distinct_days": 3
+  },
+  "eligible_user_count": 40551,
+  "sampling": {
+    "method": "uniform_without_replacement",
+    "n_selected": 280,
+    "seed": 42,
+    "note": "uids sorted before rng.choice for reproducibility"
+  },
+  "session_pick": "v2: min(10, n_days) days chosen evenly spaced across the user's sorted day list; 10 session slots allocated round-robin across chosen days (evenly spaced within day); 2 spares evenly spaced over the remainder. Guarantees sessions span >= 3 distinct days; asserted by post-check before output.",
+  "v1_deviation_note": "v1 assigned spares as the two chronologically last picks, allowing sessions to collapse onto <3 days for 15/280 users; v1 outputs discarded, never used for downloads or analysis."
+}
