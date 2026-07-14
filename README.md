@@ -2,8 +2,7 @@
 
 Evaluation pipeline and results for the real-data validation of the noise-injected
 biometric commitment mechanism proposed in *A Threat-Modelled Zero-Knowledge Identity
-Specification for Spatial Privacy in Immersive Metaverse Systems* (SNARKZ, under
-review at IEEE OJ-CS). This repository replays that paper's synthetic churn and
+Specification for Spatial Privacy in Immersive Metaverse Systems* . This repository replays that paper's synthetic churn and
 re-identification protocol, unchanged, on real VR motion telemetry from the
 [BOXRR-23 corpus](https://rdi.berkeley.edu/metaverse/boxrr-23/) (Nair et al., IEEE
 TVCG 2024, DOI 10.1109/TVCG.2024.3372087). A full companion manuscript is in
