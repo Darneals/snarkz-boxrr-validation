@@ -104,8 +104,7 @@ pipeline must accept it before downloading the corpus.
 
 ## Citation
 
-Companion manuscript in preparation. Until it is available, cite this repository
-and the SNARKZ paper (under review, IEEE OJ-CS), and the BOXRR-23 corpus:
+BOXRR-23 corpus:
 V. Nair et al., "Berkeley Open Extended Reality Recordings 2023 (BOXRR-23),"
 IEEE TVCG 30(5), 2024, DOI 10.1109/TVCG.2024.3372087.
 
